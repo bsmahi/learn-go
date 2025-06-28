@@ -1,0 +1,24 @@
+.idea
+.env
+node_modules
+
+*.o
+*.a
+*.so
+
+# Folder
+
+_obj
+_test
+vendor/
+
+# Compiled binary files
+
+*.exe
+*.out
+
+.DS_Store
+
+/bin.
+
+
