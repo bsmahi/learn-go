@@ -1,27 +1,24 @@
-.idea
-.env
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
 node_modules
+# dist
+dist-ssr
+*.local
 
-*.o
-*.a
-*.so
-
-# Folder
-
-_obj
-_test
-vendor/
-
-# Compiled binary files
-
-*.exe
-*.out
-
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-
-/bin.
-
-# logs
-.log
-
-
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
